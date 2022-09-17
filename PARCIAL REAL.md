@@ -103,6 +103,20 @@
 |   | msg | a_nac | msg| a_act |a_act=>0 |msg |
 |2|"dame tu año de nacimeinto"| 2004 |"dame el año actual"| 2002 |  si| "el año actual no puede ser menor al año de nacimiento" |
 #### DIAGRAMA 15
+![](https://github.com/ICIROJAS/PARCIAL-ICI/blob/main/DIAGRAMA%2015.png)
+
+**PRUEBA DE ESCRITORIO**
+| s=s+c | cont<=10 |c=c+2|s=s+c|cont<=10| c=c+2|s=s+c| cont<=10  | msg |salida|
+| ----------- | ----------- |----------- |----------- |----------- |----------- |----------- |----------- |----------- |----------- |
+ | 0+2  |no| 2+2 |2+4  | no   | 4+2| 6+6   | si   |   s  | 12   |
+#### DIAGRAMA 16
+![](https://github.com/ICIROJAS/PARCIAL-ICI/blob/main/DIAGRAMA%2016.png)
+
+**PRUEBA DE ESCRITORIO**
+| c*2 | nom |msg|salida |
+| ----------- | ----------- |----------- |----------- |
+ | "como te llamas" |isaac | "Buen dia",nom |buen dia isaac  |
+
 
 
 
