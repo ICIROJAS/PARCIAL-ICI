@@ -128,7 +128,7 @@
 
 **PRUEBA DE ESCRITORIO**
 |corridas| msg |num  |num>10 |msg |salida |
-| ----------- | ----------- |----------- |----------- |----------- |----------- |----------- |----------- |
+| ----------- | ----------- |----------- |----------- |----------- |----------- |
 |1|"dame un numero en el teclado"| 5 |"es menor a 10"| es menor a 10|
 |   | msg |num  |num>10 |msg |salida | 
 |2|"dame un numero en el teclado"| 14 |"es mayor a 10"| es mayor a 10|
