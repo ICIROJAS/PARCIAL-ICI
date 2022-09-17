@@ -113,10 +113,10 @@
 ![](https://github.com/ICIROJAS/PARCIAL-ICI/blob/main/DIAGRAMA%2016.png)
 
 **PRUEBA DE ESCRITORIO**
-| c*2 | nom |msg|salida |
+| c*2 | cont<=5|c++|salida |
 | ----------- | ----------- |----------- |----------- |
- | "como te llamas" |isaac | "Buen dia",nom |buen dia isaac  |
-
-
-
+ |c*2 |c<=5|c++ |Numeros pares  |
+ #### DIAGRAMA 17
+![](https://github.com/ICIROJAS/PARCIAL-ICI/blob/main/DIAGRAMA%2017.png)
+**PRUEBA DE ESCRITORIO**
 
