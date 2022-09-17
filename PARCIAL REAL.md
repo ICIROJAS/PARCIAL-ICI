@@ -118,5 +118,18 @@
  |c*2 |c<=5|c++ |Numeros pares  |
  #### DIAGRAMA 17
 ![](https://github.com/ICIROJAS/PARCIAL-ICI/blob/main/DIAGRAMA%2017.png)
+
 **PRUEBA DE ESCRITORIO**
+| msg | n | n>0  | msg| v  |v>0   |  v%2==0  | c=c+1  | c<=n   | sp   |
+| ----------- | ----------- |----------- |----------- |----------- |----------- |----------- |----------- |----------- |----------- |
+ | "cuantos numeros"|  4|no|"dame el numero",c,"de",n  | 5+1| no   |6 | no  |   | 6    |    
+#### DIAGRAMA 18
+![](https://github.com/ICIROJAS/PARCIAL-ICI/blob/main/DIAGRAMA%2018.png)
+
+
+**PRUEBA DE ESCRITORIO**
+
+
+
+
 
