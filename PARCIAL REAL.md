@@ -129,11 +129,32 @@
 **PRUEBA DE ESCRITORIO**
 |corridas| msg |num  |num>10 |msg |salida |
 | ----------- | ----------- |----------- |----------- |----------- |----------- |
-|1|"dame un numero en el teclado"| 5 |"es menor a 10"| es menor a 10|
+|1|"dame un numero en el teclado"| 5 | no|"es menor a 10"| es menor a 10|
 |   | msg |num  |num>10 |msg |salida | 
-|2|"dame un numero en el teclado"| 14 |"es mayor a 10"| es mayor a 10|
+|2|"dame un numero en el teclado"| 14 |si  |"es mayor a 10"| es mayor a 10|
 #### DIAGRAMA 19
+![](https://github.com/ICIROJAS/PARCIAL-ICI/blob/main/DIAGRAMA%2019.png)
 
+**PRUEBA DE ESCRITORIO**
+|corridas| num |num>10 |n=10-num |msg |salida |
+| ----------- | ----------- |----------- |----------- |----------- |----------- |
+|1|   5  | no   | 10-5 | "te falta",n,"para llegar a 10"| te falta 5 para llegar a 10  |
+|   | num |num>10 |n=num-10 |msg |salida |
+|2|  11  |   si  |  11-10    | "te pasaste por",n,"de 10"   | te pasaste por 1 de 10 |
+#### DIAGRAMA 20
+![](https://github.com/ICIROJAS/PARCIAL-ICI/blob/main/DIAGRAMA%2020.png)
+
+**PRUEBA DE ESCRITORIO**
+|  msg   | num     |  num==0     |  num>0      |   cp=cp++1     |  msg     | num  |num==0     |  num>0 |cn=cn++1 | msg   | num     |  num==0| "+",cp "-",cn     | salida    |
+| ----------- | ----------- |----------- |----------- |----------- |----------- |----------- |----------- |----------- |----------- |----------- |----------- |----------- |----------- |----------- |
+|  "dame un numero entero,(0) para terminar"|  5  | no   |  si  | 0+1    |"dame un numero entero,(0) para terminar"|  -6   |  no   | no    | 0+1  |"dame un numero entero,(0) para terminar"|  0  |  si   |"+",1,"-",1  | +1,-1    |
+#### DIAGRAMA 21
+![](https://github.com/ICIROJAS/PARCIAL-ICI/blob/main/DIAGRAMA%2021.png)
+
+**PRUEBA DE ESCRITORIO**
+| msg | num  |n<0 | cont=cont+1|msg |num  |n=0 |num   |
+| ----------- | ----------- |----------- |----------- |----------- |----------- |----------- |----------- |
+| "dame un numero positivo o negativo,(0) para terminar"|  5  | no |0+1 | "dame un numero positivo o negativo,(0) para terminar" |0  | si | 5 |
 
 
 
